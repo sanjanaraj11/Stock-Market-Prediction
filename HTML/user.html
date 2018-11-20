@@ -1,0 +1,41 @@
+
+<html>
+<script>
+	function exec()
+	{
+               		//if ( document.intro.language.selectedValue=="about.html" )
+			//<jsp:forward page="hr.html"/>
+
+			alert("Selected Combo");
+	}
+</script>
+<body bgcolor="#999999" link="#000000" alink="#FFFFFF" vlink="#FFFFFF" text="#000000">
+<p align="center"><b><font size="5" face="Arial Black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></b><img src="user top.png" width="918" height="115"></p>
+<p align="center"><b><font size="5" face="c">&nbsp;&nbsp;&nbsp;<font size="6">&nbsp;<font color="#000000">&nbsp;
+  </font></font></font><font color="#000000" size="6"><strong><font face="Times New Roman, Times, serif">User Login
+    </font></strong></font></b></p>
+<form action="user_login.jsp" method=post target="_top">  
+  <div align="center">
+    <table border="1" width="31%" height="150">
+      <tr>
+        <td width="36%" height="25" bgcolor="#999999"><div align="left"><font face="Times New Roman, Times, serif" color="#000000" size="5"><strong>User Name:</strong></font><strong><font face="Times New Roman, Times, serif"></b></font></font></strong></div></td>
+        <td width="64%" height="25">
+  <input required type="text"  name="username" size="15"></td>
+      </tr>
+      <tr>
+        <td width="36%" height="25"><div align="left"><font face="Courier New, Courier, monospace"><b><font color="#000000" size="5" face="Times New Roman, Times, serif">Password:</font></b></font></div></td>
+        <td width="64%" height="25">
+  <input required type="password"  name="password" size="15"></td>
+      </tr>
+      <tr>
+        <td width="100%" height="40" colspan="2">
+        <p align="center"><input  type="submit"  value="Login" name="B1"><input type="reset" value="Reset" name="B2"></td>
+      </tr>
+    </table>
+    <p><font face="Times New Roman, Times, serif"><a href="index.html"><font color="#0000FF" size="5"><strong>  <font color="#000000">Home</font></strong></font></a> </font></p>
+    <p><font color="#efeeee" face="Times New Roman, Times, serif"><a href="registeruser.jsp"><font color="#000000" size="5"><strong>New User? Register here </strong></font></a></font></p>
+  </div>
+</form>
+
+</body>
+</html>
